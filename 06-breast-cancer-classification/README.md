@@ -21,20 +21,12 @@ pip install pandas scikit-learn
 
 ## Dataset
 
-The script expects the dataset at `dataset/brca.csv`. The last column `y` holds the diagnosis (`B` or `M`), and the other columns are numeric tumor measurements (radius, texture, perimeter, area, etc.).
+The dataset is not included in this repo. Download the **Breast Cancer Wisconsin (Diagnostic) Dataset** from Kaggle and save it as `dataset/brca.csv`.
+
+The file needs a `y` column with the diagnosis (`B` = benign, `M` = malignant). The original Kaggle version calls it `diagnosis`, so rename it if needed. The other columns are numeric tumor measurements (radius, texture, perimeter, area, etc.).
 
 ## Usage
 
 ```bash
 python breast_cancer_logistic_regression.py
 ```
-
-## Example Output
-
-```
-Wrong predictions: 3 / 86
-Accuracy: 0.965
-Iterations used: 25
-```
-
-(Your exact numbers may differ.)
