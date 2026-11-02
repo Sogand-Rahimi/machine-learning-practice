@@ -41,5 +41,3 @@ Logistic Regression
   Test accuracy:     0.xx
 ...
 ```
-
-(Run the script and replace this with your real numbers, or delete this section.)
